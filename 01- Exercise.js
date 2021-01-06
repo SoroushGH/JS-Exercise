@@ -1,5 +1,9 @@
-let a  = 10;
-let b = 20;
-let sum = a + b;
+let num1 = 5;
+let num2 = 15;
 
-console.log(sum)
+function sum(a, b) {
+    let result = a + b;
+    return result;
+}
+
+sum(num1, num2);
