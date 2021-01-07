@@ -12,6 +12,7 @@ function longestString(fruits, minLength) {
 }
 longestString(fruits, 5);
 
+/* OR */
 
 let longestString = (fruits) => {
     let len = 0;
