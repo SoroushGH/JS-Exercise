@@ -1,13 +1,11 @@
-function last(array, n){
-    if(n === undefined){
-        return array.splice(-1)
+function last(array, n) {
+    if (n === undefined) {
+        return array[array.length - 1];
+    } else {
+        return (array.slice(Math.max(array.length - n, 0)));
     }
-    else{
-        array.
-    }
+    return;
 }
-
-
 
 console.log(last([7, 9, 0, -2]));
 console.log(last([7, 9, 0, -2], 3));
