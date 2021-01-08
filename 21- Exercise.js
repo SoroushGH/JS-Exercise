@@ -4,7 +4,6 @@ function last(array, n) {
     } else {
         return (array.slice(Math.max(array.length - n, 0)));
     }
-    return;
 }
 
 console.log(last([7, 9, 0, -2]));
