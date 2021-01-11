@@ -9,7 +9,6 @@ function booleanChecker(arr, maxCapacity) {
         if (typeof item === "boolean" && result.length < maxCapacity) {
             result.push(item);
         } else if (maxCapacity === undefined && typeof item === "boolean") {
-            maxCapacity = arr.length;
             result.push(item);
         }
         //console.log(result);
