@@ -1,7 +1,5 @@
-let arr1 = ["12", "55", "hello"]
+let arr1 = ["12", "55", "hello"];
 let arr2 = ["12", "55", true, false, true, true, true]
-let arr3 = ["12", "55", true, false, true, true, true]
-
 
 function booleanChecker(arr, maxCapacity) {
     let result = [];
@@ -16,4 +14,8 @@ function booleanChecker(arr, maxCapacity) {
     return `${result.length} booleans were found ${result}`;
 }
 
-booleanChecker(arr, 3);
+
+console.log("arr1 ==> ", booleanChecker(arr1, 3));
+console.log("arr2 ==> ", booleanChecker(arr2, 3));
+console.log("arr2 ==> ", booleanChecker(arr2, 1));
+console.log("arr2 ==> ", booleanChecker(arr2));
