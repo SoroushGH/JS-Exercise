@@ -6,5 +6,5 @@ function swap(obj) {
     return newObj;
 }
 
-swap({ 'name': 'Mari' })
+swap({ 'name': 'Mari' });
 swap({ 'age': 55 });
