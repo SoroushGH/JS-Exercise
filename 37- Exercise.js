@@ -13,7 +13,6 @@ fibonacci1(9);
 
 
 // Solution #2
-
 function fibonacci2(num) {
     const result = [0, 1]
 
@@ -26,3 +25,17 @@ function fibonacci2(num) {
 }
 
 fibonacci2(5)
+
+
+//Solution #3
+//Recursive approach without defining pre number
+const fibonacci = num => {
+    // if num is either 0 or 1 return num
+    if (num < 2) {
+        return num
+    }
+    // recursion here
+    return fibonacci(num - 1) + fibonacci(num - 2)
+}
+
+fibonacci(5)
