@@ -29,13 +29,13 @@ fibonacci2(5)
 
 //Solution #3
 //Recursive approach without defining pre number
-const fibonacci = num => {
+const fibonacci3 = num => {
     // if num is either 0 or 1 return num
     if (num < 2) {
         return num
     }
     // recursion here
-    return fibonacci(num - 1) + fibonacci(num - 2)
+    return fibonacci3(num - 1) + fibonacci3(num - 2)
 }
 
-fibonacci(5)
+fibonacci3(5)
